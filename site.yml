@@ -33,5 +33,4 @@
   hosts: localhost
   tasks:
     - name: check who is logged in
-      shell:
-        command: "whoami"
+      shell: whoami
