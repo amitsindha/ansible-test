@@ -30,7 +30,7 @@
         content: "Welcome to our website"
         dest: /var/www/html/index.html
 - name: ping local host
-  hosts: localhost
+  hosts: myself
   tasks:
     - name: check who is logged in
       shell: whoami
